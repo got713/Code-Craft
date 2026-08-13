@@ -28,45 +28,45 @@ export default function Portfolio({ lang }) {
   const projects = [
     {
       id: 1,
-      title: 'El-Zain Platform',
-      titleAr: lang === 'ar' ? 'منصة الزين لإدارة وحوكمة الأعمال' : 'El-Zain Business Platform',
+      title: 'Zenith SaaS Dashboard',
+      titleAr: lang === 'ar' ? 'لوحة تحكم زينيث لإدارة الاشتراكات' : 'Subscription SaaS Platform',
       category: 'custom',
       desc: lang === 'ar'
-        ? 'نظام إداري متكامل وحسابي متطور يتيح للشركات إدارة العملاء، تتبع الفواتير، وحساب الأرباح والخسائر بشكل لحظي.'
-        : 'An administrative SaaS application designed to help businesses manage clients, track invoices, and monitor financial metrics in real-time.',
-      tags: ['React', 'JavaScript', 'Tailwind CSS', 'Vercel'],
+        ? 'لوحة تحكم إدارية متكاملة للشركات والمنصات السحابية تتيح تتبع الأرباح وإدارة الاشتراكات وإصدار التقارير بشكل لحظي.'
+        : 'An administrative business dashboard for cloud SaaS platforms to track revenue, subscriptions, and compile analytical reports in real-time.',
+      tags: ['React', 'Tailwind v4', 'Node.js', 'PostgreSQL'],
       imageTheme: 'from-blue-600 to-indigo-900',
       mockupType: 'dashboard',
-      githubUrl: 'https://github.com/got713/EL-ZAIN',
-      demoUrl: 'https://el-zain.vercel.app'
+      githubUrl: '#',
+      demoUrl: '#'
     },
     {
       id: 2,
-      title: 'C2A Disaster Detection',
-      titleAr: lang === 'ar' ? 'تطبيق C2A للإنقاذ والكشف عن الكوارث' : 'C2A Disaster Rescue App',
+      title: 'Nova Food Delivery App',
+      titleAr: lang === 'ar' ? 'تطبيق نوفا لتوصيل الطعام والطلبات' : 'GPS Mobile Delivery App',
       category: 'mobile',
       desc: lang === 'ar'
-        ? 'تطبيق للهواتف الذكية يعتمد على تقنيات الذكاء الاصطناعي لتتبع الكوارث الطبيعية وتوفير خرائط استجابة سريعة لإنقاذ الضحايا.'
-        : 'A native mobile application developed with Flutter to detect natural disasters, coordinate rescue missions, and provide live map tracking.',
-      tags: ['Flutter', 'Dart', 'Google Maps API', 'Firebase'],
+        ? 'تطبيق للهواتف الذكية مع ميزات التتبع الحي والخرائط المباشرة وتجربة طلب طعام سريعة ومرنة للعملاء والمندوبين.'
+        : 'A complete mobile delivery app featuring live GPS tracking, automated routing, and user-friendly orders system.',
+      tags: ['React Native', 'Firebase', 'Google Maps API'],
       imageTheme: 'from-purple-600 to-pink-900',
       mockupType: 'mobile',
-      githubUrl: 'https://github.com/got713/C2A-Disaster-Detection',
+      githubUrl: '#',
       demoUrl: null
     },
     {
       id: 3,
-      title: 'Arab Market E-Commerce',
-      titleAr: lang === 'ar' ? 'منصة السوق العربي الإلكترونية' : 'Arab Market E-Commerce',
+      title: 'Apex Headless E-Commerce',
+      titleAr: lang === 'ar' ? 'متجر أبيكس الإلكتروني فائق السرعة' : 'Headless E-Commerce Engine',
       category: 'web',
       desc: lang === 'ar'
-        ? 'منصة تجارة إلكترونية متكاملة للبيع والشراء تدعم اللغتين وتوفر واجهة مستخدم فائقة السرعة وتجربة تسوق سلسة.'
-        : 'A comprehensive multi-vendor e-commerce platform built with TypeScript, featuring a high-performance shopping flow.',
-      tags: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Vercel'],
+        ? 'منصة تجارة إلكترونية متطورة وسريعة جداً تعتمد على تقنيات الويب الحديثة لزيادة المبيعات وتحسين تجربة الشراء.'
+        : 'A lightning-fast headless e-commerce store utilizing modern architecture to optimize sales conversion and client experience.',
+      tags: ['Next.js', 'Stripe API', 'Tailwind CSS', 'GraphQL'],
       imageTheme: 'from-emerald-600 to-teal-900',
       mockupType: 'ecommerce',
-      githubUrl: 'https://github.com/got713/Arab-market',
-      demoUrl: 'https://arab-market.vercel.app'
+      githubUrl: '#',
+      demoUrl: '#'
     },
   ];
 
@@ -159,7 +159,7 @@ export default function Portfolio({ lang }) {
                         <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
                         <span className="w-1.5 h-1.5 rounded-full bg-yellow-500" />
                         <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
-                        <span className={`ml-2 font-mono ${lang === 'ar' ? 'mr-2 ml-0' : 'ml-2'}`}>el-zain-dashboard.io</span>
+                        <span className={`ml-2 font-mono ${lang === 'ar' ? 'mr-2 ml-0' : 'ml-2'}`}>zenith-dashboard.io</span>
                       </div>
                       <div className="flex-1 grid grid-cols-3 gap-2">
                         <div className="col-span-1 bg-white/5 rounded p-1 flex flex-col gap-1">
@@ -170,10 +170,10 @@ export default function Portfolio({ lang }) {
                         <div className="col-span-2 flex flex-col gap-2">
                           <div className="grid grid-cols-2 gap-1">
                             <div className="h-4 bg-primary/20 rounded p-1 flex flex-col justify-between">
-                              <span className="text-[6px] text-primary font-bold">$12,480</span>
+                              <span className="text-[6px] text-primary font-bold">$18,250</span>
                             </div>
                             <div className="h-4 bg-secondary/20 rounded p-1 flex flex-col justify-between">
-                              <span className="text-[6px] text-secondary font-bold">+84.2%</span>
+                              <span className="text-[6px] text-secondary font-bold">+62.4%</span>
                             </div>
                           </div>
                           <div className="flex-1 bg-white/5 rounded-t p-1 flex items-end gap-0.5 justify-between">
@@ -192,8 +192,8 @@ export default function Portfolio({ lang }) {
                       <div className="w-8 h-2 bg-white/20 rounded-full mx-auto" />
                       <div className="flex-1 bg-white/5 rounded-t-xl p-1 flex flex-col justify-between">
                         <div className="flex justify-between items-center text-[6px]">
-                          <span className="text-white/40 font-mono">Location</span>
-                          <span className="text-secondary font-bold">Active</span>
+                          <span className="text-white/40 font-mono">12:00 PM</span>
+                          <span className="text-secondary font-bold">GPS Active</span>
                         </div>
                         <div className="h-8 w-full bg-white/10 rounded my-1 flex items-center justify-center relative overflow-hidden">
                           {/* Map graphics */}
@@ -202,7 +202,7 @@ export default function Portfolio({ lang }) {
                           <div className="h-1.5 w-1.5 bg-secondary rounded-full" />
                         </div>
                         <div className="h-4 w-full bg-secondary/20 rounded p-0.5 flex items-center justify-center">
-                          <span className="text-[6px] text-secondary font-bold">Rescue Map →</span>
+                          <span className="text-[6px] text-secondary font-bold">Track Order →</span>
                         </div>
                       </div>
                     </div>
@@ -211,7 +211,7 @@ export default function Portfolio({ lang }) {
                   {project.mockupType === 'ecommerce' && (
                     <div className="w-full h-full bg-slate-950/80 rounded-t-lg border border-white/10 p-2 flex flex-col gap-2 transform translate-y-4 group-hover:translate-y-2 transition-transform duration-300 shadow-2xl">
                       <div className="flex justify-between items-center border-b border-white/5 pb-1">
-                        <span className="text-[7px] text-white font-bold font-heading">ARAB MARKET</span>
+                        <span className="text-[7px] text-white font-bold font-heading">APEX SHOP</span>
                         <div className="flex gap-1">
                           <span className="h-1.5 w-3 bg-white/10 rounded-full" />
                           <span className="h-1.5 w-3 bg-white/10 rounded-full" />
@@ -237,10 +237,8 @@ export default function Portfolio({ lang }) {
                     {/* GitHub Link */}
                     <a
                       href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="h-11 w-11 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center text-white transform scale-90 group-hover:scale-100 transition-all duration-300 cursor-pointer"
-                      title={lang === 'ar' ? 'مستودع الكود' : 'GitHub Repository'}
+                      title={lang === 'ar' ? 'مستودع الكود (تجريبي)' : 'GitHub Repository (Demo)'}
                     >
                       <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
@@ -251,10 +249,8 @@ export default function Portfolio({ lang }) {
                     {project.demoUrl && (
                       <a
                         href={project.demoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="h-11 w-11 bg-primary/20 hover:bg-primary/30 backdrop-blur-md border border-primary/30 rounded-full flex items-center justify-center text-white transform scale-90 group-hover:scale-100 transition-all duration-300 cursor-pointer"
-                        title={lang === 'ar' ? 'المعاينة المباشرة' : 'Live Demo'}
+                        title={lang === 'ar' ? 'المعاينة المباشرة (تجريبي)' : 'Live Demo (Demo)'}
                       >
                         <ExternalLink className="w-5 h-5" />
                       </a>
