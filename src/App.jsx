@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import WhyUs from './components/WhyUs';
+import TechStack from './components/TechStack';
 import Portfolio from './components/Portfolio';
 import Process from './components/Process';
 import About from './components/About';
@@ -30,6 +31,7 @@ export default function App() {
         <Hero lang={lang} />
         <Services lang={lang} />
         <WhyUs lang={lang} />
+        <TechStack lang={lang} />
         <Portfolio lang={lang} />
         <Process lang={lang} />
         <About lang={lang} />
